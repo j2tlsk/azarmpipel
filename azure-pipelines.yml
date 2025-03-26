@@ -20,7 +20,7 @@ steps:
     location: 'Central US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/j2tlsk/azarmpipel/refs/heads/main/create_web_app/azuredeploy.json'
-    overrideParameters: '-projectName azarmpipel -storageSKU stamdard_GRS'
+    overrideParameters: '-projectName azarmpipel -storageSKU standard_GRS'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
   displayName: 'Run a multi-line script'
