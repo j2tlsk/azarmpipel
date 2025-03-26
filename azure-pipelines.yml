@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'azarmpipel-rg'
     location: 'Central US'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/j2tlsk/azarmpipel/refs/heads/main/create_web_app/azuredeploy.json'
+    csmFileLink: 'https://raw.githubusercontent.com/Azure/azure-docs-json-samples/master/get-started-deployment/linked-template/azuredeploy.json'
     overrideParameters: '-projectName azarmpipel'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
